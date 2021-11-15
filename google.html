@@ -12,28 +12,18 @@
      alt="Google's Logo">
 
 <p>
-    Lorem ipsum dolor sit amet,
-    consectetur adipisicing elit.
-    Fuga, quaerat?
+My Contact Form
 </p>
 
-<form >
-    <input type="text" name="search" placeholder="Enter your search">
-    <input type="text" name="firstName" placeholder="Enter Your first Name">
-    <input type="text" name="lastName" placeholder="Enter Your last Name">
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Frank"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Poindexter"><br><br>
+    <input type="submit" value="Submit">
+</form>
 
-    <!-- //@TODO flesh this out  to build a simple contact form -->
-    <select name="" id="">
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-    </select>
-
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-
-
-    <input type="submit" value="Google Search v2">
-</form> <!--- emmet.io -->
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p> <!--- emmet.io -->
 
 <!--
 google.html?
