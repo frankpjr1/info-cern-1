@@ -16,13 +16,21 @@ My Contact Form
 </p>
 
 <form >
-    <input type="text" name="search" placeholder="Enter your search"><br><br>
-    <input type="text" name="firstName" placeholder="Enter Your first Name"><br><br>
-    <input type="text" name="lastName" placeholder="Enter Your last Name"><br><br>
+    <label for="search">Search</label>
+    <input type="text" name="search" placeholder="Enter your search" id="search"><br><br>
+
+    <label for="firstName"></label>
+    <input type="text" name="firstName" placeholder="Enter Your first Name" id="firstName"><br><br>
+
+    <label for="lastName"></label>
+    <input type="text" name="lastName" placeholder="Enter Your last Name" id="lastName"><br><br>
 
     <!-- //@TODO flesh this out  to build a simple contact form -->
+    <label for="comments">Comments</label>
     <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
-    <br><select name="pets" id="pet-select">
+    <br>
+    <label for="pets">Choose a Pet:</label>
+    <select name="pets" id="pets">
 
         <option value="parrot">Parrot</option>
         <option value="spider">Spider</option>
